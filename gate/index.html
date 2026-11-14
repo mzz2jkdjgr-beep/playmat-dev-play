@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#23262b" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Playmatic</title>
+    <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+    <style>
+      @font-face { font-family: "Lilita One"; src: url("../fonts/LilitaOne-Regular.ttf") format("truetype"); font-display: swap; }
+      @font-face { font-family: "Varela Round"; src: url("../fonts/VarelaRound-Regular.ttf") format("truetype"); font-display: swap; }
+      html, body { margin: 0; min-height: 100%; }
+      /* the playmat: its green, a soft weave, a road along the bottom */
+      body {
+        font-family: "Varela Round", system-ui, sans-serif; color: #23262b;
+        background-color: #86c83c;
+        background-image:
+          linear-gradient(0deg, transparent 32px, #4f535b 32px, #4f535b 36px, #8d9199 36px, #8d9199 92px, #4f535b 92px, #4f535b 96px, transparent 96px),
+          repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0 3px, rgba(0,0,0,0.05) 3px 6px),
+          repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 3px, rgba(0,0,0,0.05) 3px 6px),
+          radial-gradient(circle at 20% 10%, rgba(255,247,217,0.25), transparent 60%);
+        background-attachment: fixed;
+        display: flex; align-items: center; justify-content: center; min-height: 100vh; min-height: 100dvh;
+        padding: 20px; box-sizing: border-box;
+      }
+      /* the road's dashes */
+      body::after { content: ""; position: fixed; left: 0; right: 0; bottom: 61px; height: 6px; pointer-events: none;
+        background: repeating-linear-gradient(90deg, #fff 0 26px, transparent 26px 46px); }
+      .card { position: relative; z-index: 1; width: min(380px, 100%); background: #fff8e6; border: 3px solid #23262b; border-radius: 22px;
+        padding: 22px 22px 24px; box-sizing: border-box; text-align: center;
+        box-shadow: inset 0 -6px 0 #eedfb8, 0 8px 0 rgba(20,40,10,0.28); }
+      .logo { font-family: "Lilita One", system-ui, sans-serif; font-size: clamp(38px, 12vw, 54px); line-height: 1; margin: 2px 0 12px; letter-spacing: 1px;
+        text-shadow: -2px -2px 0 #23262b, 2px -2px 0 #23262b, -2px 2px 0 #23262b, 2px 2px 0 #23262b, 0 -3px 0 #23262b, 0 3px 0 #23262b, -3px 0 0 #23262b, 3px 0 0 #23262b, 0 6px 0 #23262b; }
+      .logo span { display: inline-block; }
+      .logo span:nth-child(odd) { transform: translateY(-2px) rotate(-3deg); }
+      .logo span:nth-child(even) { transform: translateY(2px) rotate(3deg); }
+      h1 { font-family: "Lilita One", system-ui, sans-serif; font-weight: 400; font-size: 24px; margin: 6px 0 4px; }
+      p { margin: 4px 0 14px; font-size: 16px; line-height: 1.4; color: #7a705c; }
+      input { width: 100%; box-sizing: border-box; font: inherit; font-size: 20px; text-align: center; padding: 11px 12px;
+        border: 3px solid #23262b; border-radius: 14px; background: #fff; color: #23262b; outline: none; }
+      input:focus { border-color: #2f6fe4; }
+      button { width: 100%; margin-top: 12px; font-family: "Lilita One", system-ui, sans-serif; font-size: 22px; color: #fff; background: #2fae4a;
+        border: 3px solid #23262b; border-radius: 14px; min-height: 52px; cursor: pointer;
+        box-shadow: inset 0 -5px 0 rgba(0,0,0,0.2), inset 0 3px 0 rgba(255,255,255,0.3);
+        text-shadow: -1px -1px 0 #23262b, 1px -1px 0 #23262b, -1px 1px 0 #23262b, 1px 1px 0 #23262b, 0 2px 0 #23262b;
+        -webkit-appearance: none; appearance: none; touch-action: manipulation; }
+      button:active { transform: translateY(2px); }
+      .note { min-height: 22px; margin: 10px 0 0; font-size: 15px; color: #b3261e; }
+      .shake { animation: shake 0.42s ease-in-out; }
+      @keyframes shake { 0%, 100% { transform: translateX(0) } 18% { transform: translateX(-10px) rotate(-1deg) } 36% { transform: translateX(9px) rotate(1deg) } 54% { transform: translateX(-6px) } 72% { transform: translateX(4px) } }
+      @media (prefers-reduced-motion: reduce) { .shake { animation: none; } .logo span { transform: none !important; } }
+    </style>
+    <script>
+      window.PLAYMATIC_GATE_PAGE = true;
+    </script>
+    <script src="../gate.js"></script>
+  </head>
+  <body>
+    <form class="card" id="card" autocomplete="off">
+      <div class="logo" aria-label="Playmatic">
+        <span style="color:#ee2b24">P</span><span style="color:#ff8000">L</span><span style="color:#ffd60a">A</span><span style="color:#2fae4a">Y</span><span style="color:#2468ff">M</span><span style="color:#a23cf0">A</span><span style="color:#ff5fb3">T</span><span style="color:#ffffff">I</span><span style="color:#ffffff">C</span>
+      </div>
+      <h1>Playmatic is in testing</h1>
+      <p>Enter the password to come in.</p>
+      <input id="word" type="text" inputmode="text" autocapitalize="none" autocorrect="off" autocomplete="off" spellcheck="false" aria-label="Password" placeholder="Password" />
+      <button type="submit">Come in</button>
+      <div class="note" id="note" role="status" aria-live="polite"></div>
+    </form>
+    <script>
+      (function () {
+        var card = document.getElementById('card');
+        var word = document.getElementById('word');
+        var note = document.getElementById('note');
+        // where to go once the door is open: the page the visitor came for, if it is one of this site's own
+        function destination() {
+          var root = new URL('../', location.href);
+          var next = new URLSearchParams(location.search).get('next');
+          try {
+            var u = new URL(next || root.href, location.origin);
+            var ours = u.origin === location.origin && u.pathname.indexOf(root.pathname) === 0 && u.pathname.indexOf(root.pathname + 'gate/') !== 0;
+            return ours ? u.href : root.href;
+          } catch (e) {
+            return root.href;
+          }
+        }
+        if (PlaymaticGate.open()) {
+          location.replace(destination());
+          return;
+        }
+        card.addEventListener('submit', function (ev) {
+          ev.preventDefault();
+          if (PlaymaticGate.matches(word.value)) {
+            PlaymaticGate.remember();
+            location.replace(destination());
+            return;
+          }
+          // wrong: a friendly shake, and try again as often as you like
+          note.textContent = word.value.trim() ? 'Not quite. Try again!' : 'Type the password first.';
+          card.classList.remove('shake');
+          void card.offsetWidth;
+          card.classList.add('shake');
+          word.select();
+        });
+        word.focus();
+      })();
+    </script>
+  </body>
+</html>

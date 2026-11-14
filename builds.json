@@ -1,0 +1,71 @@
+{
+  "built": "2026-11-14T19:13:59.858Z",
+  "commit": "23dc080",
+  "app": {
+    "commit": "23dc080",
+    "key": "23dc080",
+    "date": "2026-11-14T14:13:29-05:00",
+    "title": "Playmatic: the update log's entry for this deploy (automatic)",
+    "deployTag": "deploy-2026-11-14-1324",
+    "changed": true
+  },
+  "games": {
+    "switchyard": {
+      "commit": "0adc580",
+      "key": "3a80f12",
+      "date": "2026-11-13T17:59:34-05:00",
+      "title": "Playmatic: the developer menu, slice 2 (mail town-online/1725): reset a game or the whole account (on every device: a reset number on the account record, and a marker so an emptied save still syncs), set each daily streak (day 7 today), the app's first visit again, the builds not public yet, and testers (Ask card; Jonny's Requests and Testers lists)",
+      "deployTag": "deploy-2026-11-14-1324",
+      "changed": true
+    },
+    "cookie-defense": {
+      "commit": "d3f8dc2",
+      "key": "d3f8dc2",
+      "date": "2026-11-14T14:01:27-05:00",
+      "title": "Cookie Defense: the 20-map plan and its sketch sheet, for Jonny to approve before building (mails 1320, 1340)",
+      "deployTag": "deploy-2026-11-14-1324",
+      "changed": true
+    },
+    "coaster-park": {
+      "commit": "81b1ca1",
+      "key": "3a80f12",
+      "date": "2026-11-13T18:41:21-05:00",
+      "title": "Toy Coaster Park: Hall of Mirrors with wavy frames and plainly warped reflections, riders in the Lookout Tower's cabin, round tubs on the Twister (coaster mail 1725, item 4; blind Name-it)",
+      "deployTag": "deploy-2026-11-14-1324",
+      "changed": true
+    },
+    "topple-trail": {
+      "commit": "0adc580",
+      "key": "3a80f12",
+      "date": "2026-11-13T17:59:34-05:00",
+      "title": "Playmatic: the developer menu, slice 2 (mail town-online/1725): reset a game or the whole account (on every device: a reset number on the account record, and a marker so an emptied save still syncs), set each daily streak (day 7 today), the app's first visit again, the builds not public yet, and testers (Ask card; Jonny's Requests and Testers lists)",
+      "deployTag": "deploy-2026-11-14-1324",
+      "changed": true
+    },
+    "rug-rally": {
+      "commit": "0adc580",
+      "key": "3a80f12",
+      "date": "2026-11-13T17:59:34-05:00",
+      "title": "Playmatic: the developer menu, slice 2 (mail town-online/1725): reset a game or the whole account (on every device: a reset number on the account record, and a marker so an emptied save still syncs), set each daily streak (day 7 today), the app's first visit again, the builds not public yet, and testers (Ask card; Jonny's Requests and Testers lists)",
+      "deployTag": "deploy-2026-11-14-1324",
+      "changed": true
+    },
+    "studio": {
+      "commit": "330596b",
+      "key": "3a80f12",
+      "date": "2026-11-13T20:19:15-05:00",
+      "title": "Playmat Studio: handoff notes after the polish (Undo, tags and arrows, landmark info, the hand's two later lessons)",
+      "deployTag": "deploy-2026-11-14-1324",
+      "changed": true
+    }
+  },
+  "extras": [
+    {
+      "id": "switchyard-crazygames",
+      "name": "Switchyard: CrazyGames version (what we'll resubmit)",
+      "commit": "933325d",
+      "date": "2026-11-12T18:32:00-05:00",
+      "title": "The exact build to resubmit to CrazyGames (switchyard-basic-2026-11-12-933325d.zip)"
+    }
+  ]
+}
