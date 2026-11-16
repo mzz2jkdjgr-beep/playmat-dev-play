@@ -1,0 +1,53 @@
+{
+  "branches": {
+    "coaster": {
+      "branch": "loop/coaster",
+      "commit": "5bf8474",
+      "sha": "5bf8474da07cc9ec89b542aeace875b07655e72d",
+      "date": "2026-11-16T08:05:32-05:00",
+      "title": "Toy Coaster Park: the First Aid Tent is plain white with a big sticking plaster across a red sign (read blind as a first-aid stop now, was a circus tent); still never a medical cross",
+      "built": "2026-11-16T13:06:46.905Z"
+    },
+    "games": {
+      "branch": "loop/games",
+      "commit": "8978358",
+      "sha": "89783587d7a3574d142ba0762e06eb185782eb44",
+      "date": "2026-11-16T08:34:02-05:00",
+      "title": "Games loop: Topple Trail's swaps and tips tested; next is Rug Rally's menu polish",
+      "built": "2026-11-16T13:34:32.581Z"
+    },
+    "party": {
+      "branch": "loop/party",
+      "commit": "2aeab10",
+      "sha": "2aeab10785e0cb2990e9427d9abd6d41bba7f6fa",
+      "date": "2026-11-16T10:08:09-05:00",
+      "title": "party: Pillow Fight: where their pillow will land fills orange with a \"!\" badge and a gathering shadow",
+      "built": "2026-11-16T15:08:41.564Z"
+    },
+    "switchyard13": {
+      "branch": "loop/switchyard13",
+      "commit": "c225556",
+      "sha": "c2255565946dc0ac6e57290265032df431500311",
+      "date": "2026-11-16T08:12:14-05:00",
+      "title": "Switchyard 13+: the first time the multiplier rises, one line says what the ×N box means (eighth fresh review)",
+      "built": "2026-11-16T13:12:44.262Z"
+    },
+    "town": {
+      "branch": "loop/town",
+      "commit": "c5748a1",
+      "sha": "c5748a19457dcf25351ac215be4b6706e2576c62",
+      "date": "2026-11-16T07:25:00-05:00",
+      "title": "Town loop: backlog after pass 47 (next: re-score the kite, friends check)",
+      "built": "2026-11-16T12:25:21.024Z"
+    },
+    "site": {
+      "branch": "loop/site",
+      "commit": "8428e62",
+      "sha": "8428e621d3535d642443d70fd1b6c95667885273",
+      "date": "2026-11-15T19:02:10-05:00",
+      "title": "Topple Trail: still Graphics from shared/ui/stillGraphics (bakesPerFrame 3, as before); its own copy removed",
+      "built": "2026-11-16T00:12:49.644Z"
+    }
+  },
+  "updated": "2026-11-16T15:08:43.006Z"
+}

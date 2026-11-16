@@ -1,0 +1,79 @@
+{
+  "built": "2026-11-16T00:12:18.435Z",
+  "commit": "8428e62",
+  "app": {
+    "commit": "33f81a7",
+    "key": "33f81a7",
+    "date": "2026-11-15T18:54:31-05:00",
+    "title": "shared/ui/stillGraphics: one version of the still-Graphics patch (from Toy Coaster Park's, as copied into Cookie Defense and Topple Trail)",
+    "deployTag": "deploy-2026-11-15-1216",
+    "changed": true
+  },
+  "games": {
+    "switchyard": {
+      "commit": "66390b4",
+      "key": "33f81a7",
+      "date": "2026-11-15T17:22:04-05:00",
+      "title": "Switchyard tests: 'a round nobody touches is lost…' gets a 300 s timeout; with seven packages testing at once it hit 120 s and failed the 11:42 and 12:06 auto-deploys (mail defense 1450, until the switchyard13 loop's own fix lands)",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "cookie-defense": {
+      "commit": "762b6de",
+      "key": "762b6de",
+      "date": "2026-11-15T19:00:53-05:00",
+      "title": "Cookie Defense: still Graphics from shared/ui/stillGraphics (bakesPerFrame 3, as before); its own copy removed",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "coaster-park": {
+      "commit": "03d7258",
+      "key": "03d7258",
+      "date": "2026-11-15T18:57:59-05:00",
+      "title": "Toy Coaster Park: still Graphics from shared/ui/stillGraphics (bakesPerFrame 8, as before); its own copy removed",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "topple-trail": {
+      "commit": "8428e62",
+      "key": "8428e62",
+      "date": "2026-11-15T19:02:10-05:00",
+      "title": "Topple Trail: still Graphics from shared/ui/stillGraphics (bakesPerFrame 3, as before); its own copy removed",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "rug-rally": {
+      "commit": "09e8436",
+      "key": "33f81a7",
+      "date": "2026-11-15T08:34:00-05:00",
+      "title": "Rug Rally: a new player's menu shows no goals until a first run is driven",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "studio": {
+      "commit": "330596b",
+      "key": "33f81a7",
+      "date": "2026-11-13T20:19:15-05:00",
+      "title": "Playmat Studio: handoff notes after the polish (Undo, tags and arrows, landmark info, the hand's two later lessons)",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "party": {
+      "commit": "5db9856",
+      "key": "33f81a7",
+      "date": "2026-11-15T11:11:07-05:00",
+      "title": "Party: backlog: ready to merge into main with no conflicts",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    },
+    "switchyard-13": {
+      "commit": "66390b4",
+      "key": "33f81a7",
+      "date": "2026-11-15T17:22:04-05:00",
+      "title": "Switchyard tests: 'a round nobody touches is lost…' gets a 300 s timeout; with seven packages testing at once it hit 120 s and failed the 11:42 and 12:06 auto-deploys (mail defense 1450, until the switchyard13 loop's own fix lands)",
+      "deployTag": "deploy-2026-11-15-1216",
+      "changed": true
+    }
+  },
+  "extras": []
+}

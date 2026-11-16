@@ -1,0 +1,96 @@
+{
+  "built": "2026-11-16T17:46:20.034Z",
+  "commit": "2ff6f37",
+  "app": {
+    "commit": "2ff6f37",
+    "key": "2ff6f37",
+    "date": "2026-11-15T18:57:54-05:00",
+    "title": "Playmatic: the update log's entry for this deploy (automatic)",
+    "deployTag": "deploy-2026-11-15-1857",
+    "changed": false
+  },
+  "games": {
+    "switchyard": {
+      "commit": "66390b4",
+      "key": "66390b4",
+      "date": "2026-11-15T17:22:04-05:00",
+      "title": "Switchyard tests: 'a round nobody touches is lost…' gets a 300 s timeout; with seven packages testing at once it hit 120 s and failed the 11:42 and 12:06 auto-deploys (mail defense 1450, until the switchyard13 loop's own fix lands)",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "cookie-defense": {
+      "commit": "745f773",
+      "key": "745f773",
+      "date": "2026-11-15T18:38:54-05:00",
+      "title": "Cookie Defense, the kitchen's magnifying glass (Jonny via mail 1825: 'a circle with a green dot … it needs a handle'): redrawn as one anyone names at a glance (a thick dark rim, a long warm handle at an angle with a brass ferrule, a white glint that keeps to the lamp's side, no stand: it floats over its shadow; a gold rim at power-up 2 instead of the inner lens that was the 'dot'); its card centered and bigger. A bug it kills burns away in about 0.9 s: a sun spot, dark smoke, a flickering cartoon flame, charring and shrinking into a puff of ash (its bucks wait for the ash); a bug it only hurts smokes; reduced motion: a short grey puff. The glass sends its own sun spot. Blind reads at 390x844: 'magnifying glass', sure, on the board and the card; 60 fps at 4x throttle",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "coaster-park": {
+      "commit": "076318c",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T10:05:39-05:00",
+      "title": "CrazyGames research notes (docs/research/crazygames-notes.md): tycoon games' first minute against Toy Coaster Park's; coaster loop backlog",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "topple-trail": {
+      "commit": "f2b1e2e",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T09:35:55-05:00",
+      "title": "Topple Trail: the painted atlas is kept between puzzles, halving the held frame when one starts",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "rug-rally": {
+      "commit": "09e8436",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T08:34:00-05:00",
+      "title": "Rug Rally: a new player's menu shows no goals until a first run is driven",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "studio": {
+      "commit": "330596b",
+      "key": "0ecb3c1",
+      "date": "2026-11-13T20:19:15-05:00",
+      "title": "Playmat Studio: handoff notes after the polish (Undo, tags and arrows, landmark info, the hand's two later lessons)",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "party": {
+      "commit": "5db9856",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T11:11:07-05:00",
+      "title": "Party: backlog: ready to merge into main with no conflicts",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    },
+    "switchyard-13": {
+      "commit": "66390b4",
+      "key": "66390b4",
+      "date": "2026-11-15T17:22:04-05:00",
+      "title": "Switchyard tests: 'a round nobody touches is lost…' gets a 300 s timeout; with seven packages testing at once it hit 120 s and failed the 11:42 and 12:06 auto-deploys (mail defense 1450, until the switchyard13 loop's own fix lands)",
+      "deployTag": "deploy-2026-11-15-1857",
+      "changed": false
+    }
+  },
+  "extras": [
+    {
+      "id": "switchyard-crazygames",
+      "name": "Switchyard: CrazyGames version (what we'll resubmit)",
+      "commit": "933325d",
+      "date": "2026-11-12T18:32:00-05:00",
+      "title": "The exact build to resubmit to CrazyGames (switchyard-basic-2026-11-12-933325d.zip)"
+    },
+    {
+      "id": "happy-hydro",
+      "name": "Happy Hydro grow game (client prototype)",
+      "commit": "dist 10:34",
+      "date": "2026-11-15T11:15:00-05:00",
+      "title": "Grow Room by Happy Hydro: the client's built files (demo.html, the age question answered), from ~/Documents/Happy Hydro App/game/dist",
+      "open": "demo.html",
+      "tag": "Client"
+    }
+  ]
+}
