@@ -1,0 +1,79 @@
+{
+  "built": "2026-11-16T17:45:56.272Z",
+  "commit": "80c086b",
+  "app": {
+    "commit": "77f6ce7",
+    "key": "77f6ce7",
+    "date": "2026-11-15T19:07:44-05:00",
+    "title": "Playmatic dev menu: the loop/site branch's row in Builds to test is named (the site loop: the Switchboard, the privacy page, the song doors), instead of 'loop/site (the whole app)'",
+    "deployTag": "deploy-2026-11-15-1753",
+    "changed": true
+  },
+  "games": {
+    "switchyard": {
+      "commit": "66390b4",
+      "key": "66390b4",
+      "date": "2026-11-15T17:22:04-05:00",
+      "title": "Switchyard tests: 'a round nobody touches is lost…' gets a 300 s timeout; with seven packages testing at once it hit 120 s and failed the 11:42 and 12:06 auto-deploys (mail defense 1450, until the switchyard13 loop's own fix lands)",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    },
+    "cookie-defense": {
+      "commit": "80c086b",
+      "key": "80c086b",
+      "date": "2026-11-16T08:10:59-05:00",
+      "title": "Cookie Defense (QUEUE item 5, HQ 0045, 0215 #3 and 0752): a new bug pauses the game once, on a \"New bug!\" card",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": true
+    },
+    "coaster-park": {
+      "commit": "076318c",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T10:05:39-05:00",
+      "title": "CrazyGames research notes (docs/research/crazygames-notes.md): tycoon games' first minute against Toy Coaster Park's; coaster loop backlog",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    },
+    "topple-trail": {
+      "commit": "f2b1e2e",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T09:35:55-05:00",
+      "title": "Topple Trail: the painted atlas is kept between puzzles, halving the held frame when one starts",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    },
+    "rug-rally": {
+      "commit": "09e8436",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T08:34:00-05:00",
+      "title": "Rug Rally: a new player's menu shows no goals until a first run is driven",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    },
+    "studio": {
+      "commit": "330596b",
+      "key": "0ecb3c1",
+      "date": "2026-11-13T20:19:15-05:00",
+      "title": "Playmat Studio: handoff notes after the polish (Undo, tags and arrows, landmark info, the hand's two later lessons)",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    },
+    "party": {
+      "commit": "5db9856",
+      "key": "0ecb3c1",
+      "date": "2026-11-15T11:11:07-05:00",
+      "title": "Party: backlog: ready to merge into main with no conflicts",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    },
+    "switchyard-13": {
+      "commit": "66390b4",
+      "key": "66390b4",
+      "date": "2026-11-15T17:22:04-05:00",
+      "title": "Switchyard tests: 'a round nobody touches is lost…' gets a 300 s timeout; with seven packages testing at once it hit 120 s and failed the 11:42 and 12:06 auto-deploys (mail defense 1450, until the switchyard13 loop's own fix lands)",
+      "deployTag": "deploy-2026-11-15-1753",
+      "changed": false
+    }
+  },
+  "extras": []
+}
